@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #daced4;
+}
+
+h1,h2,h3{
+    font-family: cursive;
+}
+
+form {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #72566b;
+    border: 1px solid #72566b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(236, 196, 236);
+    /* background-color: rgb(211, 202, 241); */
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.4s;
+}
+button:hover {
+    background-color: #381939;
+    /* background-color: rgb(65, 70, 122); */
+    transform: translateY(-4px);
+}
+
+h1 , h2 {
+    font-size: 24px;
+    color: black;
+}

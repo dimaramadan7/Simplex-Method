@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simplex Method</title>
+    <link rel="icon" href="icon/coding.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <br />
+    <h1>Simplex Method Programming</h1>
+    <br />
+    <form id="lp-form">
+      <label for="c">Objective Function:</label>
+      <input
+        type="text"
+        id="c"
+        placeholder="enter element Objective Function ..."
+        required
+      /><br />
+
+      <label for="A">Constraint Left-hand Side:</label>
+      <textarea
+        id="A"
+        placeholder="enter element Left-hand Side ..."
+        required
+      ></textarea
+      ><br />
+
+      <label for="b">Constraint Right-hand Side:</label>
+      <input
+        type="text"
+        id="b"
+        placeholder="enter element Right-hand Side ..."
+        required
+      /><br />
+
+      <button type="button" onclick="solveLP()">Solve</button>
+      <h2>The Results:</h2>
+      <div id="result"></div>
+    </form>
+    <br /><br />
+    <h3>The Students: Dima Ramadan</h3>
+    <h2>Supervised By: Eng. Abdullah Al-Hayek</h2>
+    <script src="/simplix.js"></script>
+  </body>
+</html>
